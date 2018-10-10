@@ -16,15 +16,14 @@ body{
 
 }
 .menubar{
-	margin: 50px 0%;
-	height: 80px;
+	height: 70px;
 	
 	
 	
 }
 
 .menubar ul{
-	margin: 20px;
+	margin: 35px 3%;
 	
 	
 	
@@ -41,7 +40,7 @@ body{
 	text-decoration: none;
 	color: #fff;
 	font-size: 25px;
-	transition: .3s;
+	transition: .10s;
 	padding: 30px 50px;
 	border-radius: 0% 40%;
 	background-color: #454545;
@@ -196,6 +195,23 @@ body{
 	
 }
 
+
+.heroimage{
+	
+background-size: cover;
+	position: absolute;
+	overflow: hidden;
+	width: 2000px;
+	height: 500px;
+	padding: 0;
+	margin: 0;
+		
+	
+}
+
+
+
+
 .form-control mr-sm-2{
 	height: 50px;
 }
@@ -224,10 +240,10 @@ input.form-control.mr-sm-2:active{
 	
 	margin: 0px 0px;
 	width: 250px;
-	height: 120px;
+	height: 148px;
 	float: left;
 	background-color: #454545;
-	padding: 10px 5px;
+	padding: 15px 5px;
 
 
 }
