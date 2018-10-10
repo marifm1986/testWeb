@@ -3,7 +3,7 @@ body{
 	margin: 0;
 }
 .container{
-	width: 2516px;
+	
 	margin: 0 auto;
 	padding: 0;
 }
@@ -105,15 +105,47 @@ body{
 }
 
 
-.col-md-3 {
-	margin: 100px 0px;
-	float: left;
+.col-lg-12 {
+	color: white;
 	text-align: center;
-	padding:  0 50px;
-	color: #fff;
-	
+	padding: 30px 50%;
+	text-transform: uppercase;
+		
+}
+
+.col-lg-12 h1{
+	letter-spacing: 50px;
+	transition: .50s;
 	
 }
+
+.col-lg-12 h1:hover{
+	letter-spacing: 5px;
+	
+}
+
+.contacH{
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 30px 0%;
+	font-size: 25px;
+	transition: .50s;
+
+}
+
+
+.contacH:hover{
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 30px 0%;
+	font-size: 25px;
+	letter-spacing: 5px;
+
+}
+
+
 
 
 .heroarea{
@@ -125,10 +157,10 @@ body{
 	bc
 }
 
-.welcomeh1{
+.mainhead{
 	margin: 0;
 	padding: 20%;
-	color: red;
+	color: white;
 	text-transform: uppercase;
 }
 
@@ -143,12 +175,7 @@ background-size: cover;
 	height: 500px;
 	padding: 0;
 	margin: 0;
-		
-	
 }
-
-
-
 
 .form-control mr-sm-2{
 	height: 50px;
@@ -159,18 +186,15 @@ input.form-control.mr-sm-2{
 	height: 30px;
 	transition: .5s;
 	
-
 }
 
 input.form-control.mr-sm-2:hover{
 	width: 300px;
 	
-	
 }
 
 input.form-control.mr-sm-2:active{
 	width: 300px;
-	
 	
 }
 
@@ -181,12 +205,9 @@ input.form-control.mr-sm-2:active{
 	height: 148px;
 	float: left;
 	background-color: #454545;
-	padding: 15px 5px;
-
+	padding: 30px 30px;
 
 }
-
-
 
 
 
